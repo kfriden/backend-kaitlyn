@@ -1,2 +1,2 @@
-web: gunicorn tricdatabase.wsgi
+web: gunicorn Hot_Auth.wsgi
 
