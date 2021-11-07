@@ -22,4 +22,5 @@ if __name__ == '__main__':
     main()
 
 
-#web: python src/manage.py runserver 0.0.0.0:$PORT
+# web: python src/manage.py runserver 0.0.0.0:$PORT
+# web: gunicorn src.Hot_Auth.wsgi --log-file -

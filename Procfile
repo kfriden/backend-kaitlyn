@@ -1,2 +1,2 @@
-web: gunicorn src.Hot_Auth.wsgi --log-file -
+web: gunicorn -b 0.0.0.0:8000 src:manage --log-file -
 
