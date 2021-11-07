@@ -1,2 +1,2 @@
-web: gunicorn backend.src.Hot_Auth.wsgi --log-file -
+web: gunicorn src.Hot_Auth.wsgi --log-file -
 
