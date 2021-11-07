@@ -1,2 +1,2 @@
-web: gunicorn -b 0.0.0.0:8000 src:manage --log-file -
+web: gunicorn -b 0.0.0.0:8000 src.manage --log-file -
 
