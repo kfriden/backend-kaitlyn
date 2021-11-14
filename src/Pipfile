@@ -6,6 +6,17 @@ name = "pypi"
 [packages]
 gunicorn = "*"
 pillow = "*"
+dj-database-url = "*"
+whitenoise = "*"
+sqlparse = "*"
+asgiref = "*"
+django = "*"
+django-cors-headers = "*"
+django-rest-auth = "*"
+djangorestframework = "*"
+psycopg2 = "*"
+pytz = "*"
+six = "*"
 
 [dev-packages]
 
