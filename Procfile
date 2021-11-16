@@ -1,1 +1,1 @@
-web: gunicorn src/manage.py
+web: gunicorn Hot_Auth.wsgi
