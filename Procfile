@@ -1,1 +1,1 @@
-web: python src/manage.py runserver
+web: gunicorn src/manage.py
