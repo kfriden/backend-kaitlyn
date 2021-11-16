@@ -1,1 +1,1 @@
-web: gunicorn Hot_Auth.wsgi
+web: gunicorn src/Hot_Auth.wsgi
