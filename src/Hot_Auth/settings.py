@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-&hqis4-v9e(p65%)-$^io7rky!hthllf*=r^#$cz=&fxk^n0kp
 DEBUG = False
 
 CORS_ORIGIN_ALLOW_ALL = True
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["kaitlyn-backend.herokuapp.com", '127.0.0.1']
 
 
 # Application definition
