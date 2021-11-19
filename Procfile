@@ -1,1 +1,2 @@
-web: gunicorn src/Hot_Auth.wsgi
+release: python manage.py migrate
+web: gunicorn Hot_Auth.wsgi --log-file -
