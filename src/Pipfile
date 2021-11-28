@@ -17,6 +17,7 @@ djangorestframework = "*"
 psycopg2 = "*"
 pytz = "*"
 six = "*"
+waitress = "*"
 
 [dev-packages]
 
