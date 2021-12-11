@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework.authtoken',
     'rest_auth',
-    'herokuapp'
+    # 'herokuapp'
 ]
 
 MIDDLEWARE = [
