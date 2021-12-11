@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-&hqis4-v9e(p65%)-$^io7rky!hthllf*=r^#$cz=&fxk^n0kp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 ALLOWED_HOSTS = ["kaitlyn-backend.herokuapp.com", 'localhost']
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework.authtoken',
     'rest_auth',
-    # 'herokuapp'
+    'herokuapp'
 ]
 
 MIDDLEWARE = [
