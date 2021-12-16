@@ -18,7 +18,7 @@ class Members(models.Model):
     villain_vigilante = models.CharField(max_length=15)
     description = models.CharField(max_length=200)
     images = models.ImageField(upload_to=upload_to)
-    url_image = models.CharField(max_length=800, null=True)
+    url_image = models.CharField(max_length=800)
 
     def __str__(self):
         return self.birth_name
