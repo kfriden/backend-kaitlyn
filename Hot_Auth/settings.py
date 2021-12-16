@@ -159,10 +159,10 @@ REST_FRAMEWORK = {
     ]
 }
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
-MEDIA_URL = '/images/'
-ACCOUNT_AUTHENTICATION_METHOD = 'username'
-ACCOUNT_EMAIL_REQUIRED = False
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+#ACCOUNT_AUTHENTICATION_METHOD = 'username'
+#ACCOUNT_EMAIL_REQUIRED = False
 
 # The URL to use when referring to static files (where they will be served from)
 STATIC_URL = '/static/'
